@@ -21,3 +21,6 @@ this.
 
 What is the time complexity of your implementation (worst-case $\Theta$)? Add
 your answer, including your reasoning, to this markdown file.
+
+Even though my implementation is asynchronous, it will still iterate over the list once
+like a usual search algorithm. So in the worst case this function has a time complexity of $\Theta(n)$
